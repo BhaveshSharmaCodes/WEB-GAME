@@ -1,0 +1,201 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse.otf);
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    overflow: hidden;
+    background: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .scroll-container {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100vh;
+    background-color: rgb(0, 2, 15);
+    background-size: 100% 100%;
+  }
+
+  #land {
+    margin-top: 26.3rem;
+    background: rgb(37, 1, 70);
+    flex: 0 0 auto;
+    width: 600vw;
+    height: 35vh;
+    /* display: inline-flex; */
+    outline: 0.5rem solid white;
+    color: cyan;
+    font-size: 6.8rem;
+    font-family: norse;
+  }
+
+  @keyframes dblj {
+    0% {
+      margin-top: 22.6rem;
+    }
+    50% {
+      margin-top: 12vh;
+    }
+    100% {
+      margin-top: 22.6rem;
+    }
+  }
+
+  @keyframes dbljp {
+    0% {
+      margin-top: 22.6rem;
+    }
+    50% {
+      margin-top: 12vh;
+    }
+    100% {
+      margin-top: 22.6rem;
+    }
+  }
+
+  @keyframes jump {
+    0% {
+      margin-top: 22.6rem;
+    }
+    50% {
+      margin-top: 22vh;
+    }
+    100% {
+      margin-top: 22.6rem;
+    }
+  }
+
+  @keyframes jumps {
+    0% {
+      margin-top: 22.6rem;
+    }
+    50% {
+      margin-top: 22vh;
+    }
+    100% {
+      margin-top: 22.6rem;
+    }
+  }
+
+  @keyframes beaming {
+    0% {
+      padding-bottom: 0rem;
+    }
+    30% {
+      /* transform: scale(1,0); */
+      padding-bottom: 0rem;
+      /* opacity: 1; */
+    }
+    100% {
+      /* transform: scale(1,100); */
+      padding-bottom: 21rem;
+    }
+  }
+
+  #mover {
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: 22.6rem;
+    padding-right: 3vh;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    color: black;
+    border: 0.1rem solid white;
+    z-index: 99999;
+  }
+
+  #fonty {
+    font-size: 1.8rem;
+    /* color: yellow; */
+  }
+
+  .triangles {
+    padding-right: 8vh;
+    height: 8vh;
+    /* border: solid 2px white; */
+    background-color: cadetblue;
+    /* position: relative;    */
+    /* display: inline-flex; */
+    /* margin-left: -73.7rem; */
+    margin-top: 22.6rem;
+    /* z-index: 1; */
+    /* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
+  }
+  #plane {
+    margin-top: 2.6rem;
+    width: 500px;
+    height: 300px;
+    rotate: 200deg;
+    /* background-color: cadetblue; */
+  }
+
+  .obs {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+
+  .laser {
+    padding-right: 6vh;
+    margin-top: 0.2rem;
+    height: 12vh;
+    background-color: rgb(255, 0, 128);
+    /* clip-path: polygon(100% 0, 0 0, 50% 100%); */
+    -webkit-clip-path: polygon(50% 0, 100% 40%, 100% 100%, 0 100%, 0 40%);
+    clip-path: polygon(50% 0, 100% 40%, 100% 100%, 0 100%, 0 40%);
+    rotate: 180deg;
+    z-index: 1;
+  }
+
+  .beam {
+    padding-right: 0.5vh;
+    margin-top: 4rem;
+    height: 1vh;
+    background-color: cyan;
+    animation: beaming 0.8s infinite;
+  }
+
+  #btn {
+    padding-right: 2.6vh;
+    height: 8vh;
+    outline: 0.1rem solid white;
+    color: cyan;
+    align-items: center;
+    font-size: 2rem;
+    background: rgb(37, 1, 70);
+    margin-left: 15rem;
+    margin-top: 1rem;
+    position: absolute;
+    font-family: norse;
+  }
+  #btns {
+    padding-right: 2.6vh;
+    height: 8vh;
+    outline: 0.1rem solid white;
+    color: cyan;
+    align-items: center;
+    font-size: 2rem;
+    background: rgb(37, 1, 70);
+    margin-left: 5rem;
+    margin-top: 1rem;
+    position: absolute;
+    font-family: norse;
+  }
+  .rect1 {
+    height: 5vh;
+    padding-right: 8vh;
+    border: 0.2rem solid white;
+    background: rgb(37, 1, 70);
+  }
+  #plane-body {
+    fill: #999999;
+  }

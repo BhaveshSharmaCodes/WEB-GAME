@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BHAVESH SHARMA</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <button id="btn" onclick="pause()">Start</button>
+    <button id="btns" onclick="Restart()">Restart</button>
+    <div id="mover" onclick="jumping()"><span id="fonty">-_-</span></div>
+    <div class="scroll-container" onclick="jumpy()">
+      <!-- <div id="mover" onclick="jumping()"><span id="fonty">-_-</span></div> -->
+      <div id="land">
+        Just Don't Prove Yourself Crap ------------------|Are You
+        ?|------------------
+      </div>
+      <div id="plane" style="margin-left: -140rem">
+        <!-- -140 -->
+        <svg width="500px" height="300px">
+          <g class="triangles">
+            <path
+              transform="matrix(0.14910601,0,0,0.15947994,232.63246,199.73735)"
+              id="plane-body"
+              d="M 506.352,5.648 C 467.096,-7.444 424.546,2.603 395.284,31.865 L 288.379,138.768 65.64,43.31 23.213,85.735 203.526,223.621 106.066,321.081 42.426,299.866 0,342.294 l 106.066,63.64 63.64,106.066 42.426,-42.427 -21.213,-63.638 97.46,-97.46 137.886,180.313 42.426,-42.427 L 373.233,223.622 480.137,116.718 C 509.399,87.456 519.446,44.906 506.352,5.648 Z"
+            />
+            <circle id="left-light" cx="240.41537" cy="220.728" r="3" />
+            <circle id="right-light" cx="289.41537" cy="272.728" r="3" />
+            <circle id="tail-light" cx="248.16072" cy="264.05817" r="3" />
+          </g>
+        </svg>
+      </div>
+     <div
+        class="triangles rect1"
+        style="margin-left: -94rem; margin-top: 10rem"
+      ></div>
+      <div class="triangles rect1" style="margin-left: -11.2rem"></div>
+      <div
+        class="triangles rect1"
+        style="margin-left: -11.2rem; margin-top: 10rem"
+      ></div>
+      <div class="triangles rect1" style="margin-left: -11.2rem"></div>
+      <div
+        class="triangles rect1"
+        style="margin-left: -11.2rem; margin-top: 10rem"
+      ></div>
+      <div class="triangles obs" style="margin-left: -24rem"></div>
+      <div class="triangles laser" style="margin-left: -24rem"></div>
+      <div
+        class="triangles beam"  
+        style="
+          margin-left: -1.3rem;
+          animation: beaming 0.8s infinite;
+          animation-delay: 1s;
+        "
+      ></div>
+      <div class="triangles laser" style="margin-left: -23rem"></div>
+      <div class="triangles beam" style="margin-left: -1.3rem"></div>
+      <div class="triangles obs" style="margin-left: -64rem"></div>
+      <div class="triangles obs" style="margin-left: -24rem"></div>
+      <div class="triangles obs" style="margin-left: -24rem"></div> 
+    </div>
+  </body>
+</html>
