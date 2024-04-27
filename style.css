@@ -43,7 +43,7 @@
       margin-top: 22.6rem;
     }
     50% {
-      margin-top: 12vh;
+      margin-top: 10vh;
     }
     100% {
       margin-top: 22.6rem;
@@ -55,7 +55,7 @@
       margin-top: 22.6rem;
     }
     50% {
-      margin-top: 12vh;
+      margin-top: 10vh;
     }
     100% {
       margin-top: 22.6rem;
@@ -67,7 +67,7 @@
       margin-top: 22.6rem;
     }
     50% {
-      margin-top: 22vh;
+      margin-top: 20vh;
     }
     100% {
       margin-top: 22.6rem;
@@ -79,7 +79,7 @@
       margin-top: 22.6rem;
     }
     50% {
-      margin-top: 22vh;
+      margin-top: 20vh;
     }
     100% {
       margin-top: 22.6rem;
@@ -106,7 +106,7 @@
     margin-left: 19rem;
     margin-top: 22.6rem;
     padding-right: 3vh;
-    height: 8vh;
+    height: 6vh;
     align-items: center;
     justify-content: center;
     background: yellow;
@@ -121,8 +121,8 @@
   }
 
   .triangles {
-    padding-right: 8vh;
-    height: 8vh;
+    padding-right: 7vh;
+    height: 7vh;
     /* border: solid 2px white; */
     background-color: cadetblue;
     /* position: relative;    */
