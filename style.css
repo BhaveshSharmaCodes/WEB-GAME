@@ -52,37 +52,37 @@
 
   @keyframes dbljp {
     0% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
     50% {
       margin-top: 10vh;
     }
     100% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
   }
 
   @keyframes jump {
     0% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
   }
 
   @keyframes jumps {
     0% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 22.6rem;
+      margin-top: 22.9rem;
     }
   }
 
@@ -104,8 +104,8 @@
   #mover {
     position: absolute;
     margin-left: 19rem;
-    margin-top: 22.6rem;
-    padding-right: 3vh;
+    margin-top: 22.9rem;
+    padding-right: 2vh;
     height: 6vh;
     align-items: center;
     justify-content: center;
@@ -116,7 +116,7 @@
   }
 
   #fonty {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     /* color: yellow; */
   }
 
@@ -128,7 +128,7 @@
     /* position: relative;    */
     /* display: inline-flex; */
     /* margin-left: -73.7rem; */
-    margin-top: 22.6rem;
+    margin-top: 22.9rem;
     /* z-index: 1; */
     /* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
   }
