@@ -64,25 +64,25 @@
 
   @keyframes jump {
     0% {
-      margin-top: 24.5rem;
+      margin-top: 23.9rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 24.5rem;
+      margin-top: 23.9rem;
     }
   }
 
   @keyframes jumps {
     0% {
-      margin-top: 24.5rem;
+      margin-top: 23.9rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 24.5rem;
+      margin-top: 23.9rem;
     }
   }
 
@@ -104,7 +104,7 @@
   #mover {
     position: absolute;
     margin-left: 19rem;
-    margin-top: 24.5rem;
+    margin-top: 23.9rem;
     padding-right: 2vh;
     height: 6vh;
     align-items: center;
