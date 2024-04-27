@@ -40,49 +40,49 @@
 
   @keyframes dblj {
     0% {
-      margin-top: 22.6rem;
+      margin-top: 23.5rem;
     }
     50% {
       margin-top: 10vh;
     }
     100% {
-      margin-top: 22.6rem;
+      margin-top: 23.5rem;
     }
   }
 
   @keyframes dbljp {
     0% {
-      margin-top: 22.9rem;
+      margin-top: 23.5rem;
     }
     50% {
       margin-top: 10vh;
     }
     100% {
-      margin-top: 22.9rem;
+    margin-top: 23.5rem;
     }
   }
 
   @keyframes jump {
     0% {
-      margin-top: 23.5rem;
+      margin-top: 24.5rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 23.5rem;
+      margin-top: 24.5rem;
     }
   }
 
   @keyframes jumps {
     0% {
-      margin-top: 23.5rem;
+      margin-top: 24.5rem;
     }
     50% {
       margin-top: 20vh;
     }
     100% {
-      margin-top: 23.5rem;
+      margin-top: 24.5rem;
     }
   }
 
@@ -104,7 +104,7 @@
   #mover {
     position: absolute;
     margin-left: 19rem;
-    margin-top: 23.5rem;
+    margin-top: 24.5rem;
     padding-right: 2vh;
     height: 6vh;
     align-items: center;
